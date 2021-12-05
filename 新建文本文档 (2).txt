@@ -1,0 +1,10 @@
+git init
+ssh-keygen -t ras -C "2764315306@qq.com"
+ssh -T git@github.com
+git config --global user.name
+                                     .email
+git add .
+git commit -m"文件"
+git remote add origin
+git pull --rebase origin master
+git push -u origin master
